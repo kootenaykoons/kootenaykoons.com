@@ -1,0 +1,30 @@
+# The URL the site will be built for
+base_url = "https://kootenaykoons.com"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+theme = "goyo"
+
+[markdown]
+
+[extra]
+nav = [
+  { name = "Our Story", url = "/story", type = "url", icon = "fa-solid fa-book" },  
+  { name = "Past Litters", url = "/litters", type = "url", icon = "fa-solid fa-book" },
+  { name = "Blog", url = "/blog", type = "url", icon = "fa-solid fa-book" },
+  { name = "Links", type = "dropdown", icon = "fa-solid fa-link", members = [
+    { name = "Test", url = "https://www.kagi.com", type = "url", icon = "fa-solid fa-fire-flame-curved" }
+  ] }
+]
+
+footer_html = ""
+
+[extra.theme]
+colorset = "light"
+brightness = "normal"
+default_theme_dark = "dim"
+default_theme_light = "lemonade"
