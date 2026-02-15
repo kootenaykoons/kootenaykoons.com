@@ -7,24 +7,56 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-theme = "goyo"
+theme = "vonge"
+
+taxonomies = [
+    { name = "tags", feed = true},
+]
+
+title = "Kootenay Koons"
+author = "Kootenay Koons"
 
 [markdown]
 
 [extra]
-nav = [
-  { name = "Our Story", url = "/story", type = "url", icon = "fa-solid fa-book" },  
-  { name = "Past Litters", url = "/litters", type = "url", icon = "fa-solid fa-book" },
-  { name = "Blog", url = "/blog", type = "url", icon = "fa-solid fa-book" },
-  { name = "Links", type = "dropdown", icon = "fa-solid fa-link", members = [
-    { name = "Test", url = "https://www.kagi.com", type = "url", icon = "fa-solid fa-fire-flame-curved" }
-  ] }
+logo_image = "/images/kootenaykoonslogo.svg"
+social_media_share_image = "/images/placeholder.jpg"
+author_image = '/images/placeholder.jpg'
+
+navigation = [
+    { url = "$BASE_URL", title = "Home" },
+    { url = "$BASE_URL/parents", title = "The King and Queen" },
+    { url = "$BASE_URL/kittens", title = "Current Kittens" },
+    { url = "$BASE_URL/litters", title = "Past Litters" },    
+    { url = "$BASE_URL/posts", title = "Blog" },    
+    { url = "", title = "Our Story", submenu = [
+        { url = "$BASE_URL/story", title = "Our Story" },        
+    ] }
 ]
 
-footer_html = ""
+[extra.footer]
+menu = [
+    { url = "$BASE_URL", title = "Home" },
+    { url = "$BASE_URL/litters/", title = "Projects" },
+    { url = "$BASE_URL/about/", title = "About" },
+    { url = "$BASE_URL/posts/", title = "Blog" },
+]
 
-[extra.theme]
-colorset = "light"
-brightness = "normal"
-default_theme_dark = "dim"
-default_theme_light = "lemonade"
+[[extra.content_blocks]]
+block = "hero"
+title = "Hi there, we're Kootenay Koons. "
+description_html = "We're a small family breeding homestead nested in the mountains above <strong>Nelson, BC</strong> in the beautiful Kootenays."
+image = "/images/placeholder.jpg"
+image_alt = "Kootenay Koons"
+cta_button_link = "mailto:flavie@hey.com?subject=Kootenay%20Koons"
+cta_button = "Get in touch"
+works_button_link = "#kittens"
+works_button = "See current kittens"
+
+[[extra.content_blocks]]
+block = "contact-form"
+form_title = "Get in touch"
+form_description = "Kootenay Koons."
+form_success_page = ''
+form_submission_email = "flavie@hey.com"
+form_button_text = "Send now"

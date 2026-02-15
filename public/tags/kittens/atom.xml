@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Kootenay Koons - kittens</title>
+    <link rel="self" type="application/atom+xml" href="https://kootenaykoons.com/tags/kittens/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://kootenaykoons.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-02-15T00:00:00+00:00</updated>
+    <id>https://kootenaykoons.com/tags/kittens/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Kittens of 2026</title>
+        <published>2026-02-15T00:00:00+00:00</published>
+        <updated>2026-02-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Kootenay Koons
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://kootenaykoons.com/kittens/2026/"/>
+        <id>https://kootenaykoons.com/kittens/2026/</id>
+        
+        <content type="html" xml:base="https://kootenaykoons.com/kittens/2026/">&lt;p&gt;Kittens of 2026
+&lt;img src=&quot;&#x2F;kittens&#x2F;2026.jpg&quot; alt=&quot;2026&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
