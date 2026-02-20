@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Kootenay Koons - freedom</title>
+    <link rel="self" type="application/atom+xml" href="https://kootenaykoons.com/tags/freedom/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://kootenaykoons.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-02-08T00:00:00+00:00</updated>
+    <id>https://kootenaykoons.com/tags/freedom/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Freedom of Choice</title>
+        <published>2025-02-08T00:00:00+00:00</published>
+        <updated>2025-02-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Kootenay Koons
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://kootenaykoons.com/posts/freedom-of-choice/"/>
+        <id>https://kootenaykoons.com/posts/freedom-of-choice/</id>
+        
+        <content type="html" xml:base="https://kootenaykoons.com/posts/freedom-of-choice/">&lt;p&gt;We live in a strange period where our identity is linked to beliefs and attachment to a group. All the while, it&#x27;s becoming harder and harder to find truth. For that reason, we refuse to limit freedom of choice when it comes to the health decisions related to your precious companions. If you want to vaccinate your kitten early, we&#x27;ll assist. If you want to wait so it&#x27;s further in their development and less risky, we&#x27;ll let you do it in your own time. If you want to completely skip vaccination, we&#x27;ll accept that too.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
