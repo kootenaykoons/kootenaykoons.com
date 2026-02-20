@@ -27,7 +27,9 @@ render = false
 # If set to "true", the section will pass its pages on to the parent section. Defaults to `false`.
 # Useful when the section shouldn't split up the parent section, like
 # sections for each year under a posts section.
-transparent = false
+transparent = true
+
+redirect_to = ""
 
 # Use aliases if you are moving content but want to redirect previous URLs to the
 # current one. This takes an array of paths, not URLs.
@@ -37,11 +39,11 @@ aliases = []
 # section's root path. This is independent of the site-wide variable of the same
 # name. The section feed will only include posts from that respective feed, and
 # not from any other sections, including sub-sections under that section.
-generate_feeds = true
+generate_feeds = false
 
 # Your own data.
 [extra]
 
 +++
 
-Here's a story
+Here's a fun story

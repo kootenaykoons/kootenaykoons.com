@@ -5,7 +5,7 @@ page_template = "project.html"
 [[extra.content_blocks]]
 block = "page-heading"
 title = "Past Litters"
-description = "I show only my best works built completely with passion, simplicity, and creativity!"
+description = "Who wants to see kittens?"
 [[extra.content_blocks]]
 block = "projects-list"
 show_projects = true

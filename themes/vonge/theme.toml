@@ -89,13 +89,13 @@ newsletter_title = "Join my mailing list"
 newsletter_description = "Get inspiration, updates and, cool stuff!"
 newsletter_identifier = ""
 newsletter_button = "Subscribe"
-[[extra.content_blocks]]
-block = "contact-form"
-form_title = "Get in touch"
-form_description = "Vonge comes with a built-in contact form."
-form_success_page = ''
-form_submission_email = "site@example.com"
-form_button_text = "Send now"
+# [[extra.content_blocks]]
+# block = "contact-form"
+# form_title = "Get in touch"
+# form_description = "Vonge comes with a built-in contact form."
+# form_success_page = ''
+# form_submission_email = "site@example.com"
+# form_button_text = "Send now"
 
 [author]
 name = "Pascal Berrang"

@@ -63,8 +63,6 @@
       {{ page.content | safe }}
     </div>
 
-    {% include "partials/share.html" %}
-
   </article>
 </div>
 <!-- end post -->
@@ -80,5 +78,4 @@
 {% include "partials/disqus-comments.html" %}
 {% include "partials/related-posts.html" %}
 
-{{ newsletter::newsletter(config = config.extra.newsletter) }}
 {% endblock %}

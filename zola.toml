@@ -8,6 +8,7 @@ compile_sass = true
 build_search_index = false
 
 theme = "vonge"
+generate_feeds = true
 
 taxonomies = [
     { name = "tags", feed = true},
@@ -23,22 +24,24 @@ logo_image = "/images/kootenaykoonslogo.svg"
 social_media_share_image = "/images/placeholder.jpg"
 author_image = '/images/placeholder.jpg'
 
+social_icons = [    
+    { url = "$BASE_URL/atom.xml", icon = "RSS" }
+]
+
 navigation = [
     { url = "$BASE_URL", title = "Home" },
-    { url = "$BASE_URL/parents", title = "The King and Queen" },
+    { url = "$BASE_URL/king-and-queen", title = "The King and Queen" },
     { url = "$BASE_URL/kittens", title = "Current Kittens" },
     { url = "$BASE_URL/litters", title = "Past Litters" },    
-    { url = "$BASE_URL/posts", title = "Blog" },    
-    { url = "", title = "Our Story", submenu = [
-        { url = "$BASE_URL/story", title = "Our Story" },        
-    ] }
+    { url = "$BASE_URL/posts", title = "Blog" },
+    { url = "$BASE_URL/story", title = "Our Story" }
 ]
 
 [extra.footer]
 menu = [
     { url = "$BASE_URL", title = "Home" },
-    { url = "$BASE_URL/litters/", title = "Projects" },
-    { url = "$BASE_URL/about/", title = "About" },
+    { url = "$BASE_URL/litters/", title = "Current Kittens" },
+    { url = "$BASE_URL/about/", title = "Our Story" },
     { url = "$BASE_URL/posts/", title = "Blog" },
 ]
 
@@ -53,10 +56,10 @@ cta_button = "Get in touch"
 works_button_link = "#kittens"
 works_button = "See current kittens"
 
-[[extra.content_blocks]]
-block = "contact-form"
-form_title = "Get in touch"
-form_description = "Kootenay Koons."
-form_success_page = ''
-form_submission_email = "flavie@hey.com"
-form_button_text = "Send now"
+# [[extra.content_blocks]]
+# block = "contact-form"
+# form_title = "Get in touch"
+# form_description = "Kootenay Koons."
+# form_success_page = ''
+# form_submission_email = "flavie@hey.com"
+# form_button_text = "Send now"

@@ -4,20 +4,12 @@
         <loc>https://kootenaykoons.com/</loc>
     </url>
     <url>
-        <loc>https://kootenaykoons.com/about/</loc>
-    </url>
-    <url>
-        <loc>https://kootenaykoons.com/elements/</loc>
-    </url>
-    <url>
-        <loc>https://kootenaykoons.com/kittens/</loc>
-    </url>
-    <url>
-        <loc>https://kootenaykoons.com/kittens/2026/</loc>
+        <loc>https://kootenaykoons.com/king-and-queen/</loc>
         <lastmod>2026-02-15</lastmod>
     </url>
     <url>
-        <loc>https://kootenaykoons.com/kittens/page/1/</loc>
+        <loc>https://kootenaykoons.com/kittens/</loc>
+        <lastmod>2026-02-15</lastmod>
     </url>
     <url>
         <loc>https://kootenaykoons.com/litters/</loc>
@@ -30,9 +22,6 @@
         <loc>https://kootenaykoons.com/parents/</loc>
     </url>
     <url>
-        <loc>https://kootenaykoons.com/parents/king-and-queen/</loc>
-    </url>
-    <url>
         <loc>https://kootenaykoons.com/posts/</loc>
     </url>
     <url>
@@ -41,6 +30,10 @@
     </url>
     <url>
         <loc>https://kootenaykoons.com/posts/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://kootenaykoons.com/story/</loc>
+        <lastmod>2026-02-19T21:41:35</lastmod>
     </url>
     <url>
         <loc>https://kootenaykoons.com/tags/</loc>
@@ -56,12 +49,6 @@
     </url>
     <url>
         <loc>https://kootenaykoons.com/tags/health/</loc>
-    </url>
-    <url>
-        <loc>https://kootenaykoons.com/tags/kittens/</loc>
-    </url>
-    <url>
-        <loc>https://kootenaykoons.com/tags/maine-coons/</loc>
     </url>
     <url>
         <loc>https://kootenaykoons.com/tags/nature/</loc>
@@ -83,14 +70,5 @@
     </url>
     <url>
         <loc>https://kootenaykoons.com/testimonials/justin/</loc>
-    </url>
-    <url>
-        <loc>https://kootenaykoons.com/testimonials/kadin/</loc>
-    </url>
-    <url>
-        <loc>https://kootenaykoons.com/testimonials/paul/</loc>
-    </url>
-    <url>
-        <loc>https://kootenaykoons.com/testimonials/tatiana/</loc>
     </url>
 </urlset>
